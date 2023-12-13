@@ -1,0 +1,24 @@
+POST http://127.0.0.1:5000/api/movies/add
+Accept: application/json
+Content-Type: application/json
+
+{
+    "apellido": "aaaaa",
+    "direccion": "bustillos",
+    "id": 2,
+    "nombre": "victor"
+  }
+
+###
+PUT http://127.0.0.1:5000/api/movies/update/2
+Accept: application/json
+Content-Type: application/json
+
+{
+    "apellido": "aaaaasssss",
+    "direccion": "chayantaaaasss",
+    "nombre": "rafaelaaasss"
+  }
+
+###
+DELETE http://127.0.0.1:5000/api/movies/delete/1
